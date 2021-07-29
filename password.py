@@ -1,17 +1,18 @@
-password = input('please enter password:')
+password = 'a9825bon'
 count = 3
 count = int(count)
-
 while True: 
-    if password == 'a9825bon':
+    pwd = input('please enter password:')
+    if pwd == password:
        print('you are right')
        break
-    elif password != 'a9825bon':
+    else:
            count = count - 1    
            print('you have', count,'chance')
-           password = input('plesase enter again: ')
            if count == 0:
               break
+         
+         
 
                
 
